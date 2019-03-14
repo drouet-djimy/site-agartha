@@ -516,11 +516,14 @@ ol {
     padding: 25px 28px;
   }
   .rgi-content {
-    padding: 34px 22px 20px;
+    padding: 15px 22px 20px;
+    height: 250px;
     background: #fff;
     border: 1px solid #d6dee7;
     border-top: none;
     position: relative;
+    text-align: justify;
+
     h5 {
       margin-bottom: 20px;
       line-height: 1.5;
