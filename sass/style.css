@@ -67,10 +67,6 @@ textarea:focus {
   outline: none;
 }
 
-a {
-  color: black;
-}
-
 a:hover,
 a:focus {
   text-decoration: none;
@@ -638,6 +634,14 @@ ol {
   background-position: right top;
 }
 
+.review-item {
+  text-align: center;
+}
+
+.review-item .site-btn {
+  margin-top: 15px;
+}
+
 .review-item .review-cover {
   position: relative;
   margin-bottom: 30px;
@@ -710,7 +714,7 @@ ol {
 
 .footer-top-bg {
   position: absolute;
-  left: 50px;
+  left: 250px;
   bottom: -80px;
   width: 250px;
   z-index: 2;
