@@ -457,6 +457,7 @@ ol {
 .feature-item {
   height: 415px;
   position: relative;
+  margin-left: 5px;
   &:after {
     position: absolute;
     content:"";
@@ -600,6 +601,7 @@ ol {
   }
   .ti-text {
     padding-left: 195px;
+    height: 250px;  
     h4 {
       color: $color1;
       margin-bottom: 20px;
@@ -639,6 +641,10 @@ ol {
   background-position: right top;
 }
 .review-item {
+  text-align: center;
+  .site-btn{
+    margin-top: 15px;
+  }
   .review-cover {
     position: relative;
     margin-bottom: 30px;
@@ -701,7 +707,7 @@ ol {
 
 .footer-top-bg {
   position: absolute;
-  left: 50px;
+  left: 250px;
   bottom: -80px;
   width: 250px;
   z-index: 2;

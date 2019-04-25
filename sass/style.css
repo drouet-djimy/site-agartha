@@ -10,7 +10,7 @@
 html,
 body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
@@ -68,8 +68,8 @@ textarea:focus {
 }
 
 .lienversblog {
-    color: black;
-    text-align: left;
+  color: black;
+  text-align: left;
 }
 
 a:hover,
@@ -108,7 +108,16 @@ ol {
   padding-bottom: 97px;
 }
 
-.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white span, .text-white li, .text-white a {
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
   color: #fff;
 }
 
@@ -345,7 +354,9 @@ ol {
   opacity: 0;
 }
 
-.hero-slider .owl-item.active .hs-item h2, .hero-slider .owl-item.active .hs-item p, .hero-slider .owl-item.active .hs-item .site-btn {
+.hero-slider .owl-item.active .hs-item h2,
+.hero-slider .owl-item.active .hs-item p,
+.hero-slider .owl-item.active .hs-item .site-btn {
   top: 0;
   opacity: 1;
 }
@@ -459,6 +470,7 @@ ol {
 .feature-item {
   height: 415px;
   position: relative;
+  margin-left: 5px;
 }
 
 .feature-item:after {
@@ -469,7 +481,7 @@ ol {
   left: 0;
   top: 0;
   background: #000;
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .feature-item .cata {
@@ -494,7 +506,7 @@ ol {
 
 .feature-item .fi-content .fi-comment {
   font-size: 12px;
-  opacity: .54;
+  opacity: 0.54;
 }
 
 /*----------------------
@@ -538,7 +550,8 @@ ol {
   width: 70px;
 }
 
-.recent-game-item .rgi-extra .rgi-star, .recent-game-item .rgi-extra .rgi-heart {
+.recent-game-item .rgi-extra .rgi-star,
+.recent-game-item .rgi-extra .rgi-heart {
   height: 35px;
   width: 35px;
   float: left;
@@ -599,6 +612,7 @@ ol {
 
 .tournament-item .ti-text {
   padding-left: 195px;
+  height: 250px;
 }
 
 .tournament-item .ti-text h4 {
@@ -636,6 +650,14 @@ ol {
 ------------------------*/
 .review-section {
   background-position: right top;
+}
+
+.review-item {
+  text-align: center;
+}
+
+.review-item .site-btn {
+  margin-top: 15px;
 }
 
 .review-item .review-cover {
@@ -710,7 +732,7 @@ ol {
 
 .footer-top-bg {
   position: absolute;
-  left: 50px;
+  left: 250px;
   bottom: -80px;
   width: 250px;
   z-index: 2;
@@ -864,7 +886,8 @@ ol {
   padding-top: 50px;
 }
 
-.site-pagination a, .site-pagination span {
+.site-pagination a,
+.site-pagination span {
   width: 33px;
   height: 33px;
   font-size: 14px;
@@ -881,7 +904,8 @@ ol {
   background: #c9152a;
 }
 
-.site-pagination.sp-style-2 a, .site-pagination.sp-style-2 span {
+.site-pagination.sp-style-2 a,
+.site-pagination.sp-style-2 span {
   background: #e5e5e5;
 }
 
@@ -972,7 +996,8 @@ ol {
   width: 70px;
 }
 
-.single-blog-page .blog-thumb .rgi-extra .rgi-star, .single-blog-page .blog-thumb .rgi-extra .rgi-heart {
+.single-blog-page .blog-thumb .rgi-extra .rgi-star,
+.single-blog-page .blog-thumb .rgi-extra .rgi-heart {
   height: 35px;
   width: 35px;
   float: left;
@@ -1057,8 +1082,8 @@ ol {
   padding-top: 30px;
 }
 
-.comment-form input[type=text],
-.comment-form input[type=email],
+.comment-form input[type="text"],
+.comment-form input[type="email"],
 .comment-form textarea {
   width: 100%;
   height: 41px;
@@ -1395,7 +1420,8 @@ ol {
   .footer-menu li:first-child a {
     margin-left: 0;
   }
-  .footer-menu, .copyright {
+  .footer-menu,
+  .copyright {
     float: none;
   }
   .copyright {
