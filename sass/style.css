@@ -67,8 +67,9 @@ textarea:focus {
   outline: none;
 }
 
-a {
-  color: black;
+.lienversblog {
+    color: black;
+    text-align: left;
 }
 
 a:hover,
@@ -517,7 +518,7 @@ ol {
   border: 1px solid #d6dee7;
   border-top: none;
   position: relative;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 
 .recent-game-item .rgi-content h5 {
