@@ -1255,6 +1255,14 @@ Contact page
   margin-right: 20px;
 }
 
+.contact-form-warp {
+  margin-bottom: 70px;
+}
+
+.description {
+  font-size: 15px;
+}
+
 /*------------------
 Responsive
 ---------------------*/
